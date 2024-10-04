@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="17.506" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="This feature is about the nytimes search functionality" name="User should be able to search for the news" time="17.132">
+<system-out><![CDATA[
+Given user navigates to Nytimes page........................................passed
+And user clicks on search button............................................passed
+And user search for news....................................................passed
+Then results should show the news...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
