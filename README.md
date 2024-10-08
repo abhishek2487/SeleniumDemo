@@ -1,11 +1,11 @@
-# **Selenium Demo Framework**
+**Selenium Demo Framework**
 
-###**Overview**
+**Overview**
 
 Selenium Demo is a project designed to automate various features of the New York Times website using Selenium and Cucumber. The goal is to ensure the website’s quality and functionality through automated testing.
 This framework utilizes Selenium WebDriver for browser automation and Cucumber for managing and executing test cases. The project is organized to support a thorough testing strategy, with well-defined directories for source code, reports, and test outputs. Maven is used for dependency management, simplifying the process of managing and updating project libraries. The framework is capable of cross-browser testing and data-driven testing, and it generates detailed reports for each test run. Configuration files like pom.xml and cucumber.xml facilitate seamless setup and execution of tests.
 
-####**Technologies Used**
+**Technologies Used**
 
 •	Framework Type: Data Driven Framework
 
@@ -21,7 +21,7 @@ This framework utilizes Selenium WebDriver for browser automation and Cucumber f
 
 •	HTML, CSS, JavaScript, XML: For web interactions
 
-###**Project Structure**
+**Project Structure**
 
 .idea: IntelliJ IDEA configuration files.
 
@@ -45,14 +45,16 @@ Docker compose file: All the information regarding services, port mapping, netwo
 
 Run_tests.sh – It is being used in docker compose file to run the command - mvn test
 
-###**Getting Started**
-####**Prerequisites**
+**Getting Started**
+**Prerequisites**
  - Java Development Kit (JDK)
  - Maven
  - IntelliJ IDEA or any other IDE
 
-####**Installation**
-####**Clone the repository:**
+**Installation**
+
+**Clone the repository:**
+
 git clone abhishek2487/SeleniumDemo (github.com)
 
 **Navigate to the project directory:**
