@@ -3,6 +3,11 @@
     <groupId>com.demo.example</groupId>
     <artifactId>SeleniumCucumberFramework</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <build>
         <plugins>
             <plugin>
@@ -23,7 +28,14 @@
                     </includes>
                 </configuration>
             </plugin>
-
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+            <version>2.6</version>
+            <configuration>
+                <encoding>${project.build.sourceEncoding}</encoding>
+            </configuration>
+        </plugin>
         </plugins>
     </build>
 
