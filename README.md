@@ -3,6 +3,7 @@
 **Overview**
 
 Selenium Demo is a project designed to automate various features of the New York Times website using Selenium and Cucumber. The goal is to ensure the website’s quality and functionality through automated testing.
+
 This framework utilizes Selenium WebDriver for browser automation and Cucumber for managing and executing test cases. The project is organized to support a thorough testing strategy, with well-defined directories for source code, reports, and test outputs. Maven is used for dependency management, simplifying the process of managing and updating project libraries. The framework is capable of cross-browser testing and data-driven testing, and it generates detailed reports for each test run. Configuration files like pom.xml and cucumber.xml facilitate seamless setup and execution of tests.
 
 **Technologies Used**
@@ -108,7 +109,7 @@ docker-compose up --abort-on-container-exit --exit-code-from tests
 
 Note : Above command will start all the services defined in your docker-compose.yml file, run the tests, and then stop all the services once the tests are complete.
 
-###**Test Scenarios Overview**
+**Test Scenarios Overview**
 
 Below mentioned are 4 tests distributed in two feature files namely:
 
