@@ -8,43 +8,43 @@ This framework utilizes Selenium WebDriver for browser automation and Cucumber f
 
 **Technologies Used**
 
-•	Framework Type: Data Driven Framework
+•	**Framework Type:** Data Driven Framework
 
-•	Design Pattern: Page Object Model with Factory Design Pattern, External Object Repository, and Inbuilt Custom Annotations
+•	**Design Pattern:** Page Object Model with Factory Design Pattern, External Object Repository, and Inbuilt Custom Annotations
 
-•	Selenium WebDriver: For browser automation
+•	**Selenium WebDriver:** For browser automation
 
-•	Cucumber: For Behaviour Driven development (BDD) and organizing test cases
+•	**Cucumber:** For Behaviour Driven development (BDD) and organizing test cases
 
-•	Maven: For dependency management, project lifecycle, and build automation
+•	**Maven:** For dependency management, project lifecycle, and build automation
 
-•	Java: Primary programming language
+•	**Java:** Primary programming language
 
-•	HTML, CSS, JavaScript, XML: For web interactions
+•	**HTML, CSS, JavaScript, XML:** For web interactions
 
 **Project Structure**
 
-.idea: IntelliJ IDEA configuration files.
+**.idea:** IntelliJ IDEA configuration files.
 
-src: Source code for all the test scripts, this package consists of below given structure.
+**src:** Source code for all the test scripts, this package consists of below given structure.
 
-src/main/java: Consists of all the packages for Page Objects and Page Object Managers
+**src/main/java:** Consists of all the packages for Page Objects and Page Object Managers
 
-src/test/java: Test Runners, Step Definition Files, Test Component Package consisting Hooks and TestContext file and utilities package for Excel utility
+**src/test/java:** Test Runners, Step Definition Files, Test Component Package consisting Hooks and TestContext file and utilities package for Excel utility
 
-src/test/resources: Features folder containing the feature file, Test Data folder containing Global Config files and test data excel
+**src/test/resources:** Features folder containing the feature file, Test Data folder containing Global Config files and test data excel
 
-.gitignore: Git ignore file.
+**.gitignore:** Git ignore file.
 
-pom.xml: Maven project file for managing dependencies.
+**pom.xml:** Maven project file for managing dependencies.
 
-target/cucumber-reports: Directory containing report files.
+**target/cucumber-reports:** Directory containing report files.
 
-Docker file: All the instructions regarding the parent image, how the files should be copied, Build commands etc are provided.
+**Docker file:** All the instructions regarding the parent image, how the files should be copied, Build commands etc are provided.
 
-Docker compose file: All the information regarding services, port mapping, network etc are provided
+**Docker compose file:** All the information regarding services, port mapping, network etc are provided
 
-Run_tests.sh – It is being used in docker compose file to run the command - mvn test
+**Run_tests.sh:** It is being used in docker compose file to run the command - mvn test
 
 **Getting Started**
 **Prerequisites**
@@ -56,7 +56,7 @@ Run_tests.sh – It is being used in docker compose file to run the command - mv
 
 **Clone the repository:**
 
-git clone abhishek2487/SeleniumDemo (github.com)
+git clone https://github.com/abhishek2487/SeleniumDemo
 
 **Navigate to the project directory:**
 
